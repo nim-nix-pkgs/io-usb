@@ -8,8 +8,8 @@
   inputs.flakeNimbleLib.inputs.nixpkgs.follows = "nixpkgs";
   
   inputs.src-io-usb-master.flake = false;
+  inputs.src-io-usb-master.ref   = "refs/heads/master";
   inputs.src-io-usb-master.owner = "nimious";
-  inputs.src-io-usb-master.ref   = "master";
   inputs.src-io-usb-master.repo  = "io-usb.git";
   inputs.src-io-usb-master.type  = "github";
   
