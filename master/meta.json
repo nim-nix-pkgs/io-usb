@@ -1,8 +1,0 @@
-{
-  "desc": "Obsolete - please use libusb instead!",
-  "license": "MIT",
-  "name": "io-usb",
-  "ref": "refs/heads/master",
-  "url": "https://github.com/nimious/io-usb.git",
-  "version": "master"
-}
