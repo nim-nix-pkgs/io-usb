@@ -11,6 +11,7 @@
   inputs.src-libusb-master.ref   = "refs/heads/master";
   inputs.src-libusb-master.owner = "nimious";
   inputs.src-libusb-master.repo  = "io-usb";
+  inputs.src-libusb-master.dir   = "";
   inputs.src-libusb-master.type  = "github";
   
   outputs = { self, nixpkgs, flakeNimbleLib, ...}@deps:
